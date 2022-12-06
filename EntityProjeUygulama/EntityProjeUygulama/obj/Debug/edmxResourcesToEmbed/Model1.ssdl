@@ -15,6 +15,7 @@
     <Property Name="MUSTERIAD" Type="varchar" MaxLength="30" />
     <Property Name="MUSTERISOYAD" Type="varchar" MaxLength="30" />
     <Property Name="SEHIR" Type="varchar" MaxLength="15" />
+    <Property Name="DURUM" Type="bit" />
   </EntityType>
   <EntityType Name="TBLSATIS">
     <Key>
@@ -74,6 +75,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Function Name="MARKAGETIR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <EntityContainer Name="DbEntityUrunModelStoreContainer">
     <EntitySet Name="TBLKATEGORI" EntityType="Self.TBLKATEGORI" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TBLMUSTERI" EntityType="Self.TBLMUSTERI" Schema="dbo" store:Type="Tables" />

@@ -12,6 +12,7 @@
     <EntitySetMapping Name="TBLMUSTERI">
       <EntityTypeMapping TypeName="DbEntityUrunModel.TBLMUSTERI">
         <MappingFragment StoreEntitySet="TBLMUSTERI">
+          <ScalarProperty Name="DURUM" ColumnName="DURUM" />
           <ScalarProperty Name="MUSTERIID" ColumnName="MUSTERIID" />
           <ScalarProperty Name="MUSTERIAD" ColumnName="MUSTERIAD" />
           <ScalarProperty Name="MUSTERISOYAD" ColumnName="MUSTERISOYAD" />
@@ -43,5 +44,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="MARKAGETIR" FunctionName="DbEntityUrunModel.Store.MARKAGETIR" />
   </EntityContainerMapping>
 </Mapping>

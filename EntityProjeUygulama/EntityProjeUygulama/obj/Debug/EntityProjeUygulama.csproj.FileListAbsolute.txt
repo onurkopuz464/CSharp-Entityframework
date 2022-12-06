@@ -16,3 +16,4 @@ C:\Users\ultra\source\repos\EntityProjeUygulama\EntityProjeUygulama\obj\Debug\En
 C:\Users\ultra\source\repos\EntityProjeUygulama\EntityProjeUygulama\obj\Debug\EntityProjeUygulama.pdb
 C:\Users\ultra\source\repos\EntityProjeUygulama\EntityProjeUygulama\obj\Debug\EntityProjeUygulama.FRM_AnaForm.resources
 C:\Users\ultra\source\repos\EntityProjeUygulama\EntityProjeUygulama\obj\Debug\EntityProjeUygulama.FRM_Urun.resources
+C:\Users\ultra\source\repos\EntityProjeUygulama\EntityProjeUygulama\obj\Debug\EntityProjeUygulama.FRM_istatistik.resources

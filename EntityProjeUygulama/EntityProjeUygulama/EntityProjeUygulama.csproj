@@ -67,6 +67,12 @@
     <Compile Include="FRM_AnaForm.Designer.cs">
       <DependentUpon>FRM_AnaForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FRM_istatistik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_istatistik.Designer.cs">
+      <DependentUpon>FRM_istatistik.cs</DependentUpon>
+    </Compile>
     <Compile Include="FRM_Urun.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FRM_AnaForm.resx">
       <DependentUpon>FRM_AnaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_istatistik.resx">
+      <DependentUpon>FRM_istatistik.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FRM_Urun.resx">
       <DependentUpon>FRM_Urun.cs</DependentUpon>

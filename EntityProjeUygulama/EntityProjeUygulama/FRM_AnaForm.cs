@@ -28,5 +28,11 @@ namespace EntityProjeUygulama
             FRM_Urun fr = new FRM_Urun();
             fr.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FRM_istatistik fr = new FRM_istatistik();
+            fr.Show();
+        }
     }
 }
